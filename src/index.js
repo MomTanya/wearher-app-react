@@ -1,14 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SearchWeather from './SearchWeather.js';
+import "bootstrap/dist/css/bootstrap.css";
+import CityBlock from './CityBlock';
+import Creator from './Creator';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SearchWeather />
+    <div className='container'>
+      <div className='weather-app-wrapper'>
+        <div className='weather-app'>
+          <SearchWeather />
+          <br />
+          <CityBlock />
+          <br />
+          <br />
+      
+        </div>
+        <Creator />
+      </div>
+    </div>
+   
   </React.StrictMode>
 );
 

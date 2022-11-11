@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import "./src/App.css";
+import './index.css';
 
 import axios from "axios";
 
@@ -41,7 +41,7 @@ export default function SearchWeather() {
   );
   if (loaded) {
     return (
-      <div>
+      <div className="Search">
         {form}
         <ul>
           <li className="list">
