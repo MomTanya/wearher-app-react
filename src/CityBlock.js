@@ -28,7 +28,7 @@ export default function CityBlock() {
           <ul class="weather-information">
             <li id="description"></li>
             <li>
-              Humidity: Humidity: {weather.humidity}%
+              Humidity: <span id="humidity"></span>%
             </li>
             <li>
               Wind: <span id="wind"></span> m/h

@@ -5,7 +5,7 @@ export default function Creator() {
     return (
         <small className="creator">
           <a
-            href="https://github.com/MomTanya/My-final-weather-project"
+            href="https://github.com/MomTanya/wearher-app-react"
             target="_blank"
             >Open-source code</a
           >
