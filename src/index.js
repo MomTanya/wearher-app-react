@@ -4,7 +4,6 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import SearchWeather from './SearchWeather.js';
 import "bootstrap/dist/css/bootstrap.css";
-import CityBlock from './CityBlock';
 import Creator from './Creator';
 
 
@@ -14,9 +13,9 @@ root.render(
     <div className='container'>
       <div className='weather-app-wrapper'>
         <div className='weather-app'>
-          <SearchWeather />
+        <SearchWeather />
           <br />
-          <CityBlock />
+          
           <br />
           <br />
       
