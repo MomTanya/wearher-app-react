@@ -45,7 +45,8 @@ export default function SearchWeather() {
         {form}
         <br />
         <br />
-        <br />
+        <h1>{city}</h1>
+        
         <ul>
           <li className="list">
             Temperature: {Math.round(weather.temperature)}°C

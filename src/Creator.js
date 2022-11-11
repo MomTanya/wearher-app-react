@@ -5,8 +5,8 @@ export default function Creator() {
     return (
         <small className="creator">
           <a
-            href="https://github.com/MomTanya/wearher-app-react"
-            target="_blank"
+           target="_blank" rel="noreferrer" href="https://github.com/MomTanya/wearher-app-react"
+            
             >Open-source code</a
           >
            {" "} by Tetiana Matvienko
