@@ -6,10 +6,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.container {
-  max-width: 900px;
-  max-height: 900px;
-}
 .Search {
   margin: 0 auto;
   text-align: center;
@@ -160,4 +156,5 @@ li:first-letter {
 .creator {
   margin: 0 auto;
   text-align: center;
+  color: aqua;
 }
